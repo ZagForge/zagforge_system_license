@@ -1,0 +1,324 @@
+<svg width="4156" height="2048" viewBox="0 0 4156 2048" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradMainBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a00ff"/>
+      <stop offset="30%" stop-color="#9600ff"/>
+      <stop offset="100%" stop-color="#5a00ff"/>
+    </linearGradient>
+
+    <linearGradient id="gradMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#290075"/>
+      <stop offset="30%" stop-color="#450077"/>
+      <stop offset="100%" stop-color="#280072"/>
+    </linearGradient>
+    
+    <linearGradient id="gradSecondary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f75959"/>
+      <stop offset="50%" stop-color="#e04141"/>
+      <stop offset="100%" stop-color="#ff8787"/>
+    </linearGradient>
+
+    <linearGradient id="gradSecondaryBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a689db"/>
+      <stop offset="30%" stop-color="#a476c5"/>
+      <stop offset="100%" stop-color="#e2e0e4"/>
+    </linearGradient>
+
+    <linearGradient id="gradTertiary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="50%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#e8d5ff"/>
+    </linearGradient>    
+
+    <linearGradient id="gradTongue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="75%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#f75959"/>
+    </linearGradient>
+
+    <linearGradient id="gBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a00ff"/>
+      <stop offset="50%" stop-color="#9600ff"/>
+      <stop offset="100%" stop-color="#5a00ff"/>
+    </linearGradient>
+
+    <linearGradient id="gAnvilTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#4a1a8a"/>
+      <stop offset="40%"  stop-color="#200850"/>
+      <stop offset="100%" stop-color="#080218"/>
+    </linearGradient>
+
+    <linearGradient id="gAnvilBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="100%" stop-color="#080218"/>
+      <stop offset="0%"   stop-color="#100428"/>
+      <stop offset="40%"  stop-color="#100428"/>
+    </linearGradient>
+
+    <linearGradient id="gAnvilBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#100428"/>
+      <stop offset="100%" stop-color="#040010"/>
+    </linearGradient>
+
+    <linearGradient id="gRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f75959"/>
+      <stop offset="50%" stop-color="#e04141"/>
+      <stop offset="100%" stop-color="#ff8787"/>
+    </linearGradient>
+
+    <linearGradient id="gPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="50%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#e8d5ff"/>
+    </linearGradient>
+
+    <linearGradient id="gTongue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="75%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#f75959"/>
+    </linearGradient>
+
+    <linearGradient id="gMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#18102e"/>
+      <stop offset="100%" stop-color="#0a0618"/>
+    </linearGradient>
+
+    <radialGradient id="gShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sfondo -->
+  <rect width="4156" height="2048" fill="#020a1d"/>
+
+  <g transform="translate(850, 150) scale(2)">
+    <g>
+      <!-- Martello: { ( ) } testa, => manico -->
+      <g transform="translate(260, 180) rotate(30)">
+
+        <!-- Testa: { ( ) } -->
+        <text x="0" y="-80"
+            text-anchor="middle"
+            dominant-baseline="middle"
+            font-size="82"
+            font-family="Georgia, monospace"
+            font-weight="bold"
+            fill="url(#gRed)"
+            stroke="#020a1d"
+            stroke-width="4"
+            paint-order="stroke">{( )}</text>
+
+        <!-- Manico: => -->
+        <g transform="rotate(90, 0, 70)">
+          <text x="-50" y="70"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              font-size="75"
+              font-family="Georgia, monospace"
+              font-weight="bold"
+              fill="url(#gPurple)"
+              stroke="#020a1d"
+              stroke-width="3"
+              paint-order="stroke">:==&gt;</text>
+        </g>
+      </g>
+
+      <!-- Baco -->
+      <g transform="translate(375, 0) scale(3)" stroke="url(#gradMain)" stroke-width="4" fill="none">
+
+        <!-- Antenne -->
+        <g transform="translate(10,5)">
+          <path d="M35 40 Q-10 80 5 50 Q-5 45 15 15" stroke="url(#gradMainBorder)" stroke-width="2" fill="none"/>
+          <path d="M35 40 Q-10 80 5 50 Q-5 45 15 15" stroke-width="1" fill="none"/>
+        </g>
+
+        <g transform="translate(180,0) scale(-1,1)">
+          <g transform="translate(10,5)">
+            <path d="M35 40 Q-10 80 5 50 Q-5 45 15 15" stroke="url(#gradMainBorder)" stroke-width="2" fill="none"/>
+            <path d="M35 40 Q-10 80 5 50 Q-5 45 15 15" stroke-width="1" fill="none"/>
+          </g>
+        </g>
+        
+    
+        
+        <!-- Zampa centrale SINISTRA -->
+        <path d="M16 95 Q-20 95 -35 60" stroke="url(#gradMainBorder)" stroke-width="6" fill="none"/>
+        <path d="M16 95 Q-20 95 -35 60" stroke-width="4" fill="none"/>
+
+        <!-- Zampa centrale DESTRA -->
+        <path d="M164 95 Q190 110 195 140 Q190 150 175 150" stroke="url(#gradMainBorder)" stroke-width="6" fill="none"/>
+        <path d="M164 95 Q190 110 195 140 Q190 150 175 150" stroke-width="4" fill="none"/>
+
+      
+        <!-- Corpo -->    
+        <circle cx="90" cy="105" r="75" fill="url(#gradMain)"/>
+        <circle cx="90" cy="105" r="76" stroke="url(#gradMainBorder)" stroke-width="1" fill="none"/>
+
+        <!-- Terminali lato sinistro -->
+        <circle cx="25" cy="17.5" r="4" stroke="url(#gradMainBorder)" stroke-width="1" fill="url(#gradTertiary)"/>
+        <circle cx="-35" cy="55" r="8" stroke="url(#gradMainBorder)" stroke-width="2" fill="url(#gradTertiary)"/>
+      
+        <!-- Pinza da fabbro -->
+        <path d="M 170 147 Q 155 125 145 110" stroke="url(#gradTertiary)" stroke-width="1" fill="none" stroke-linecap="round"/>
+        <path d="M 167 154 Q 160 140 143 112" stroke="url(#gradTertiary)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+        <!-- Terminali lato destro -->
+        <g transform="translate(180,0) scale(-1,1)">
+          <circle cx="25" cy="17.5" r="4" stroke="url(#gradMainBorder)" stroke-width="1" fill="url(#gradTertiary)"/>
+          <circle cx="10" cy="150" r="6" stroke="url(#gradMainBorder)" stroke-width="2" fill="url(#gradTertiary)"/>
+        </g>
+
+
+        <!-- Occhi -->
+        <g transform="translate(0,5)">
+          <path d="M55 50 Q70 45 85 50" stroke="url(#gradMainBorder)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </g>
+        <circle cx="70" cy="65" r="3" stroke="url(#gradMainBorder)" stroke-width="2" fill="url(#gradSecondary)"/>
+
+        <g transform="translate(40,7.5)">
+          <path d="M55 50 Q70 25 85 50" stroke="url(#gradMainBorder)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </g>
+        <circle cx="110" cy="65" r="5" stroke="url(#gradMainBorder)" stroke-width="2" fill="url(#gradSecondary)"/>
+
+        <!-- Naso -->
+        <g transform="translate(40,95)">
+          <path d="M55 -5 Q80 0 50 15" stroke="url(#gradMainBorder)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </g>
+
+        <!-- Bocca -->
+        <g transform="translate(20,85)">
+          <path d="M118 52
+                  Q93 44 63 50 Q48 53 35 46
+                  Q58 58 78 60 Q103 62 118 52
+                  Z"
+                stroke="url(#gradSecondary)"
+                stroke-width="0.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="url(#gradTongue)"/>
+        </g>
+      </g>
+      
+      <!-- Incudine -->
+      <g transform="translate(225, 200) scale(0.65)">    
+        <ellipse cx="645" cy="772" rx="440" ry="22" fill="url(#gShadow)"/>
+
+        <!-- Corpo con arco (piedi) -->
+        <path d="M 362 530
+                L 928 530
+                L 928 665
+                L 848 665
+                Q 644 608 442 665
+                L 362 665
+                Z"
+              fill="url(#gAnvilBody)" stroke="none"/>
+
+        <!-- Base -->
+        <path d="M 268 665 L 1022 665 L 1022 758 L 268 758 Z"
+              fill="url(#gAnvilBase)" stroke="none"/>
+
+        <!-- Corno sinistro -->
+        <path d="M 156 491
+                Q 265 450 362 448
+                L 362 530
+                Q 265 534 158 510
+                Z"
+              fill="url(#gAnvilTop)" stroke="none"/>
+
+        <!-- Piano di lavoro -->
+        <path d="M 360 446 L 930 446 L 930 530 L 360 530 Z"
+              fill="url(#gAnvilTop)" stroke="none"/>
+
+        <!-- Corno destro -->
+        <path d="M 930 448
+                Q 1012 452 1086 478
+                Q 1012 524 930 530
+                Z"
+              fill="url(#gAnvilTop)" stroke="none"/>
+          
+        <line x1="360" y1="446" x2="930" y2="446" stroke="#9944ff" stroke-width="3" opacity="0.9"/>
+        <path d="M 156 491 Q 265 450 362 448" stroke="#9944ff" stroke-width="2" fill="none" opacity="0.7"/>
+        <path d="M 930 448 Q 1012 452 1086 478" stroke="#9944ff" stroke-width="2" fill="none" opacity="0.7"/>
+        
+      </g>
+
+      <!-- Testo forgiato -->
+      <g transform="translate(-140, -10) rotate(5, 645, 526)">
+
+        <!-- Lastra metallica -->
+        <path d="M 430 470 L 930 470 L 900 510 L 430 510 Z"
+              fill="url(#gMetal)"
+              stroke="url(#gBorder)"
+              stroke-width="2.5"/>
+
+        <!-- Testo inciso -->
+        <text x="659" y="493"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              font-size="24"
+              font-family="consolas, monospace"
+              font-weight="bold"
+              fill="#c3a2ff"
+              stroke="#0a0618"
+              stroke-width="1"
+              paint-order="stroke">forge(idea) =&gt; { return product;</text>
+
+      </g>
+      
+      <!-- Scintille -->
+      <g transform="translate(25, 60)">
+        <circle cx="730" cy="438" r="4.5" fill="#f75959" opacity="0.9"/>
+        <circle cx="748" cy="420" r="2.5" fill="#ff9999" opacity="0.85"/>
+        <circle cx="760" cy="440" r="3" fill="#f75959" opacity="0.7"/>
+        <circle cx="774" cy="425" r="2" fill="#ffcccc" opacity="0.8"/>
+        <circle cx="785" cy="442" r="3.5" fill="#f75959" opacity="0.6"/>
+        <circle cx="800" cy="415" r="2" fill="#ff8888" opacity="0.7"/>
+        <line x1="742" y1="455" x2="737" y2="428" stroke="#f75959" stroke-width="1.5" opacity="0.65"/>
+        <line x1="762" y1="455" x2="768" y2="430" stroke="#ff9999" stroke-width="1" opacity="0.55"/>
+        <line x1="780" y1="455" x2="776" y2="428" stroke="#f75959" stroke-width="1.2" opacity="0.6"/>
+      </g>
+
+      <!-- Ferro rovente -->
+      <g transform="translate(-60, -145) rotate(60, 850, 455)">
+        <text x="850" y="460"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              font-size="90"
+              font-family="consolas, monospace"
+              font-weight="bold"
+              fill="url(#gRed)"
+              stroke="#020a1d"
+              stroke-width="4"
+              paint-order="stroke">}</text>
+      </g>
+
+      <!-- Vapore sulla graffa rovente -->
+      <g transform="translate(775, 290)" opacity="0.25">
+        <path d="M0 0 Q5 -15 0 -30 Q-5 -45 0 -60" stroke="#ff8888" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M12 0 Q18 -18 12 -35 Q6 -50 12 -65" stroke="#ff9999" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M-10 -5 Q-4 -20 -10 -38 Q-16 -52 -10 -68" stroke="#ff8888" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </g>
+
+      <!-- Testo marchio -->
+      <g transform="translate(0, 20)">
+        <text x="660" y="735"
+              text-anchor="middle"
+              font-size="60"
+              font-family="Georgia, Times New Roman, serif"
+              font-weight="bold"
+              fill="url(#gPurple)"
+              stroke="url(#gBorder)"
+              stroke-width="1.8"
+              letter-spacing="12">ZAG F()RGE</text>
+
+        <text x="660" y="785"
+              text-anchor="middle"
+              font-size="22"
+              font-family="Courier New, monospace"
+              fill="url(#gRed)"
+              letter-spacing="4">Crafted in code. Hardened in production.</text>
+      </g>
+    </g>
+  </g>
+
+</svg>
