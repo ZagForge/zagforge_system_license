@@ -1,0 +1,142 @@
+<svg width="1980" height="356" viewBox="0 0 1980 356" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradMainBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a00ff"/>
+      <stop offset="30%" stop-color="#9600ff"/>
+      <stop offset="100%" stop-color="#5a00ff"/>
+    </linearGradient>
+
+    <linearGradient id="gradMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#290075"/>
+      <stop offset="30%" stop-color="#450077"/>
+      <stop offset="100%" stop-color="#280072"/>
+    </linearGradient>
+    
+    <linearGradient id="gradSecondary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f75959"/>
+      <stop offset="50%" stop-color="#e04141"/>
+      <stop offset="100%" stop-color="#ff8787"/>
+    </linearGradient>
+
+    <linearGradient id="gradSecondaryBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a689db"/>
+      <stop offset="30%" stop-color="#a476c5"/>
+      <stop offset="100%" stop-color="#e2e0e4"/>
+    </linearGradient>
+
+    <linearGradient id="gradTertiary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="50%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#e8d5ff"/>
+    </linearGradient>    
+
+    <linearGradient id="gradTongue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="75%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#f75959"/>
+    </linearGradient>
+
+    <linearGradient id="gBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a00ff"/>
+      <stop offset="50%" stop-color="#9600ff"/>
+      <stop offset="100%" stop-color="#5a00ff"/>
+    </linearGradient>
+
+    <linearGradient id="gAnvilTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#4a1a8a"/>
+      <stop offset="40%"  stop-color="#200850"/>
+      <stop offset="100%" stop-color="#080218"/>
+    </linearGradient>
+
+    <linearGradient id="gAnvilBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="100%" stop-color="#080218"/>
+      <stop offset="0%"   stop-color="#100428"/>
+      <stop offset="40%"  stop-color="#100428"/>
+    </linearGradient>
+
+    <linearGradient id="gAnvilBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#100428"/>
+      <stop offset="100%" stop-color="#040010"/>
+    </linearGradient>
+
+    <linearGradient id="gRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f75959"/>
+      <stop offset="50%" stop-color="#e04141"/>
+      <stop offset="100%" stop-color="#ff8787"/>
+    </linearGradient>
+
+    <linearGradient id="gPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="50%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#e8d5ff"/>
+    </linearGradient>
+
+    <linearGradient id="gTongue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c3a2ff"/>
+      <stop offset="75%" stop-color="#d9b3ff"/>
+      <stop offset="100%" stop-color="#f75959"/>
+    </linearGradient>
+
+    <linearGradient id="gMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#18102e"/>
+      <stop offset="100%" stop-color="#0a0618"/>
+    </linearGradient>
+
+    <radialGradient id="gShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+    <!-- Sfondo -->
+  <rect width="4156" height="2048" fill="#020a1d"/>
+
+  <!-- Wordmark -->
+  <g transform="translate(-120,140) scale(2)">
+  <text x="105" y="58"
+        font-size="124"
+        font-family="Georgia, Times New Roman, serif"
+        font-weight="bold"
+        fill="url(#gPurple)"
+        stroke="url(#gBorder)"
+        stroke-width="1.8"
+        paint-order="stroke"
+        letter-spacing="12">ZAG FORGE</text>
+  </g>
+
+  <!-- Faccia -->
+  <g transform="translate(965, 10) scale(1.5)">
+      <!-- Corpo -->    
+      <circle cx="90" cy="105" r="75" fill="url(#gradMain)" stroke="url(#gradMainBorder)" stroke-width="2"/>
+    
+      <!-- Occhi -->
+      <g transform="translate(0,5)">
+        <path d="M55 50 Q70 45 85 50" stroke="url(#gradMainBorder)" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </g>
+      <circle cx="70" cy="65" r="3" stroke="url(#gradMainBorder)" stroke-width="2" fill="url(#gradSecondary)"/>
+
+      <g transform="translate(40,7.5)">
+        <path d="M55 50 Q70 25 85 50" stroke="url(#gradMainBorder)" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </g>
+      <circle cx="110" cy="65" r="5" stroke="url(#gradMainBorder)" stroke-width="2" fill="url(#gradSecondary)"/>
+
+      <!-- Naso -->
+      <g transform="translate(40,95)">
+        <path d="M55 -5 Q80 0 50 15" stroke="url(#gradMainBorder)" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </g>
+
+      <!-- Bocca -->
+      <g transform="translate(20,85)">
+        <path d="M118 52
+                Q93 44 63 50 Q48 53 35 46
+                Q58 58 78 60 Q103 62 118 52
+                Z"
+              stroke="url(#gradSecondary)"
+              stroke-width="0.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="url(#gradTongue)"/>
+    </g>
+  </g>
+
+</svg>
